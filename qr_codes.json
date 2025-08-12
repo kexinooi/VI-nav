@@ -1,0 +1,47 @@
+{
+  "A": {
+    "color": "red"
+  },
+  "B": {
+    "color": "blue"
+  },
+  "C": {
+    "color": "blue"
+  },
+  "D": {
+    "color": "blue"
+  },
+  "E": {
+    "color": "blue"
+  },
+  "F": {
+    "color": "red"
+  },
+  "G": {
+    "color": "blue"
+  },
+  "H": {
+    "color": "green"
+  },
+  "I": {
+    "color": "green"
+  },
+  "J": {
+    "color": "green"
+  },
+  "K": {
+    "color": "green"
+  },
+  "L": {
+    "color": "red"
+  },
+  "M": {
+    "color": "green"
+  },
+  "N": {
+    "color": "green"
+  },
+  "O": {
+    "color": "green"
+  }
+}

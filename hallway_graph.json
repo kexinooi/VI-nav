@@ -1,0 +1,111 @@
+{
+  "nodes": {
+    "A": { "coords": [0, 0], "name": "Staircase", "color": "red" },
+    "B": { "coords": [0, 4.27], "name": "N112", "color": "blue" },
+    "C": { "coords": [0, 20.27], "name": "N111", "color": "blue" },
+    "D": { "coords": [0, 42.32], "name": "N110", "color": "blue" },
+    "E": { "coords": [0, 56.14], "name": "N109", "color": "blue" },
+    "F": { "coords": [0, 73.43], "name": "Washroom", "color": "red" },
+    "G": { "coords": [0, 92.72], "name": "N108", "color": "blue" },
+    "H": { "coords": [3, 89.19], "name": "N107", "color": "green" },
+    "I": { "coords": [4, 77.44], "name": "N106", "color": "green" },
+    "J": { "coords": [5, 65.47], "name": "N105", "color": "green" },
+    "K": { "coords": [6, 53.51], "name": "N104", "color": "blue" },
+    "L": { "coords": [7, 40.33], "name": "Staircase", "color": "red" },
+    "M": { "coords": [6, 31], "name": "N103", "color": "green" },
+    "N": { "coords": [5, 19.22], "name": "N102", "color": "green" },
+    "O": { "coords": [4, -2], "name": "N101", "color": "green" }
+  },
+  "edges": [
+    {
+      "from": "A",
+      "to": "B",
+      "weight": 4.27,
+      "instruction": [
+        "Turn 90 degree to right",
+        "Walk 6 steps straight to N112"
+      ]
+    },
+    {
+      "from": "A",
+      "to": "O",
+      "weight": 8.9,
+      "instruction": [
+        "Turn 180 degree to right",
+        "Walk 12 steps straight to N101"
+      ]
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "weight": 4.27,
+      "instruction": [
+        "Turn 90 degree to left",
+        "Walk 6 steps straight to staircase"
+      ]
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "weight": 16,
+      "instruction": [
+        "Turn 90 degree to right",
+        "Walk 21 steps straight to N111"
+      ]
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "weight": 16,
+      "instruction": [
+        "Turn 90 degree to right",
+        "Walk 21 steps straight to N112"
+      ]
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "weight": 20.05,
+      "instruction": [
+        "Turn 90 degree to left",
+        "Walk 21 steps straight to N110"
+      ]
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "weight": 20.05,
+      "instruction": [
+        "Turn 90 degree to right",
+        "Walk 21 steps straight to N111"
+      ]
+    },
+    { "from": "D", "to": "E", "weight": 15.82 },
+    { "from": "E", "to": "F", "weight": 17.29 },
+    { "from": "E", "to": "D", "weight": 15.82 },
+    { "from": "F", "to": "E", "weight": 17.29 },
+    { "from": "F", "to": "G", "weight": 19.29 },
+    { "from": "G", "to": "H", "weight": 8.97 },
+    { "from": "G", "to": "F", "weight": 19.29 },
+    { "from": "H", "to": "G", "weight": 8.97 },
+    { "from": "H", "to": "I", "weight": 11.79 },
+    { "from": "I", "to": "H", "weight": 11.79 },
+    { "from": "I", "to": "J", "weight": 12.01 },
+    { "from": "J", "to": "I", "weight": 12.01 },
+    { "from": "J", "to": "K", "weight": 12 },
+    { "from": "K", "to": "L", "weight": 13.22 },
+    { "from": "K", "to": "J", "weight": 12 },
+    { "from": "L", "to": "K", "weight": 13.22 },
+    { "from": "L", "to": "M", "weight": 9.38 },
+    { "from": "M", "to": "L", "weight": 9.38 },
+    { "from": "M", "to": "N", "weight": 11.83 },
+    { "from": "N", "to": "M", "weight": 11.83 },
+    { "from": "N", "to": "O", "weight": 21.24 },
+    { "from": "O", "to": "N", "weight": 21.24 },
+    { "from": "O", "to": "A", "weight": 8.9 },
+    { "from": "D", "to": "L", "weight": 11.51 },
+    { "from": "L", "to": "D", "weight": 11.51 },
+    { "from": "F", "to": "I", "weight": 8.25 },
+    { "from": "I", "to": "F", "weight": 8.25 }
+  ]
+}
